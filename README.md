@@ -12,7 +12,7 @@ This project implements a Reinforcement Learning pipeline using **Proximal Polic
 - ✅ **Support for Supervised Fine-Tuning (SFT)**
 - ✅ **Multi-dataset support** (FLARE subsets)
 - ✅ **ROUGE-L and reward-based evaluation**
-- ✅ **8-bit quantized model loading** (via `bitsandbytes`)
+- ✅ **8-bit quantized model loading**
 
 ---
 
