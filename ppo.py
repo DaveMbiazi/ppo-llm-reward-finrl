@@ -21,9 +21,9 @@ rscore  = rouge_scorer.RougeScorer(["rougeL"], use_stemmer=True)
 # Define constants
 MAX_LENGTH = 128
 BATCH_SIZE = 16
-EPOCHS = 1
-PPO_EPOCHS = 1
-SFT_EPOCHS = 1
+EPOCHS = 5
+PPO_EPOCHS = 2
+SFT_EPOCHS = 2
 LEARNING_RATE = 1e-6
 CLIP_EPSILON = 0.2
 
