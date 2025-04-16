@@ -1,4 +1,4 @@
-# 🧠 LLaMA / Flan-T5 PPO Fine-Tuning with Custom Reward Model
+# Flan-T5 PPO Fine-Tuning with Custom Reward Model
 
 This project implements a Reinforcement Learning pipeline using **Proximal Policy Optimization (PPO)** to fine-tune a **T5-based actor model** (e.g., Flan-T5) with a **custom reward model** and **critic network**. It includes **Supervised Fine-Tuning (SFT)**, **reward-based PPO updates**, and **evaluation** across various **FLARE datasets**.
 
