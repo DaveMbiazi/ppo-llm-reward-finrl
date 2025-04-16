@@ -73,7 +73,7 @@ This project implements a Reinforcement Learning pipeline using **Proximal Polic
 ## 💡 Notes
 
 - PPO uses `CrossEntropyLoss` for policy updates
-- Reward model is assumed to be stored at `reward_model_final_2`
+- Reward model is assumed to be stored at `reward_model_final`
 - Adjust `MAX_LENGTH`, `LEARNING_RATE`, or `BATCH_SIZE` in the config as needed
 - Enable 8-bit quantization by uncommenting and configuring `BitsAndBytesConfig`
 
@@ -84,4 +84,5 @@ This project implements a Reinforcement Learning pipeline using **Proximal Polic
 Ensure dependencies are installed:
 
 ```bash
-pip install torch transformers datasets rouge-score peft bitsandbytes
+pip install -r requirements.txt
+
